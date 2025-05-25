@@ -7,7 +7,7 @@ void init(){
     setvbuf(stderr, NULL, _IONBF, 0);
 }
 
-char flag[100] = "FLAG{format_string_bug_not_eazy?!_or_eazy?!!!}";
+char flag[100] = "NT{format_string_bug_not_eazy?!_or_eazy?!!!}";
 
 void vulnerable() {
     char input[200];
